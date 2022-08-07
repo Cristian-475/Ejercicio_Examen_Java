@@ -8,6 +8,15 @@ package examen_progra_ll;
  *
  * @author Crist
  */
-public class Administrador {
+public class Administrador extends Examen_Progra_ll{
+ 
+    private String adminName;
+    private String email;
     
+    public boolean updateCatalog()
+    {
+        
+        return false;
+        
+    }
 }

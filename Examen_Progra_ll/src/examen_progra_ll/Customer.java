@@ -4,8 +4,7 @@
  */
 package examen_progra_ll;
 
-public class Custoner extends Examen_Progra_ll{
-    
+public class Customer {
     String customerName;
     String addres;
     String credieCard;

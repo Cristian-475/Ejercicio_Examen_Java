@@ -1,20 +1,22 @@
-/*
+  /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package examen_progra_ll;
 
-/**
- *
- * @author Crist
- */
-public class Examen_Progra_ll {
+import java.util.Date;
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+public abstract class Examen_Progra_ll {
+
+    private String userid;
+    private String password;
+    private String loginStatus;
+    private Date registerDate;
     
+    public boolean verifyLogin()
+    {
+        
+        return false;
+        
+    }
 }
